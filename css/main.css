@@ -57738,6 +57738,9 @@ WIDGETS
 }
 }
 @media (max-width:375px) {
+    h1 {
+    font-size: 2.3rem;
+}
     #main-navigation:not(.nav-bottom) .main-nav-wrapper .container-fluid {
     padding-right: 15px;
     padding-left: 15px;
