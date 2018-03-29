@@ -35509,12 +35509,11 @@ BUTTONS
 
 .btn {
     font-size: 1rem;
-    text-transform: uppercase;
-    font-family: Montserrat, Open Sans, arial;
-    letter-spacing: 1px;
-    font-weight: 700;
-    padding: 0 1.4rem;
-    height: auto;
+
+    font-family: 'Fira Sans', sans-serif;
+    letter-spacing: 0px;
+    font-weight: 400;
+
     line-height: 34px;
     border: none;
     z-index: 2;
@@ -35522,7 +35521,8 @@ BUTTONS
     border-radius: 30px;
     -webkit-font-smoothing: subpixel-antialiased;
     -webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
+    font-style: italic;
 }
 
 .btn,
@@ -44970,8 +44970,17 @@ header#main-navigation .current>a span:before {
     list-style: none
 }
 
+#main-aside-menu ul {
+    margin-top: 20px;
+    clear: both;
+    border-top:1px solid #c1c1c1;
+}
+#main-aside-menu ul li{
+    border-bottom:1px solid #c1c1c1;
+}
 #main-aside-menu>ul>li>a {
-    color: #121212
+    color: #6d6d6d;
+
 }
 
 #main-aside-menu>ul .is-open,
@@ -45001,47 +45010,48 @@ header#main-navigation .current>a span:before {
 }
 
 #main-aside-menu>ul>li>a {
-    font-size: .85rem;
+    font-size: .99rem;
     font-weight: 400;
-    text-transform: uppercase;
+
     display: table-cell;
     vertical-align: middle;
-    letter-spacing: 2px;
+
     margin: 0;
     padding: 0 15px;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
-    font-family: Montserrat
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
 }
 
 #main-aside-menu ul li ul {
-    padding-left: 0
+    padding-left: 0;
 }
 
 #main-aside-menu ul>li>ul {
     width: 220px;
     box-shadow: 2px 1px 4px 1px rgba(0, 0, 0, .06);
-    padding: 0
+    padding: 0;
 }
 
 #main-aside-menu ul ul a {
     height: 38px;
     line-height: 38px;
-    font-weight: 500
+    font-weight: 500;
 }
 
 #main-aside-menu>ul>li>ul a {
     color: #4e4e4e;
     webkit-transition: all .2s ease-in-out;
-    transition: all .2s ease-in-out
+    transition: all .2s ease-in-out;
 }
 
-#main-aside-menu>ul>li>ul a:hover {
-    color: #121212
+#main-aside-menu ul li a:hover {
+    color: #cb5f46;
 }
 
 #main-aside-menu>ul>li>ul {
-    margin-top: 0
+    margin-top: 0;
 }
 
 #main-aside-menu>ul>li>ul>li a {
