@@ -57738,6 +57738,11 @@ WIDGETS
 }
 }
 @media (max-width:375px) {
+    #main-navigation:not(.nav-bottom) .main-nav-wrapper .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
     .section.section-hg {
 
     padding-top: 100px;
