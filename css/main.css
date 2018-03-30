@@ -43351,12 +43351,10 @@ header .menu-black .nav-right i {
 }
 
 .nav-tools .toggle-menu {
-    top: 3px
+    top: 20px
 }
 
-# .topnav-top .nav-tools .toggle-menu {
-    top: 3px
-}
+
 
 #main-navigation .tools-btn span:not(.tools-btn-icon) {
     display: inline-block;
@@ -44572,13 +44570,14 @@ header#main-navigation .current>a span:before {
 }
 
 .toggle-menu {
-    margin-top: 3px;
+    margin-top: 30px;
+    right: 20px;
     height: 28px;
     width: 22px;
     background: none;
-    position: relative;
+    position: absolute;
     margin: auto;
-    margin-left: 4px;
+    
     padding: 0;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -44671,9 +44670,9 @@ header#main-navigation .current>a span:before {
     margin-left: 0
 }
 
-.topnav-top .toggle-menu {
+/*.topnav-top .toggle-menu {
     top: 3px
-}
+}*/
 
 .toggle-menu:focus {
     outline: none
@@ -45537,7 +45536,7 @@ body.mobile-menu-open:after {
 #aside-nav-toggle .toggle-menu {
     margin-top: 1px;
     margin-left: 5px;
-    top: 3px
+
 }
 
 .menu-mobile #aside-nav-toggle {
@@ -45928,14 +45927,14 @@ body.full-menu-open #main-content:after {
 
 #off-fullscreen-menu .toggle-menu {
     position: fixed;
-    top: 3px;
+
     right: 0;
     cursor: pointer;
     z-index: 2
 }
 
 .topnav-top #off-fullscreen-menu .toggle-menu {
-    top: 32px
+
 }
 
 #off-fullscreen-menu .toggle-menu {
