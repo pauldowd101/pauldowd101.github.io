@@ -44588,7 +44588,8 @@ header#main-navigation .current>a span:before {
     border: none;
     -webkit-transition: background .3s ease-in-out;
     transition: background .3s ease-in-out;
-    cursor: pointer
+    cursor: pointer;
+    z-index: 111;
 }
 
 .toggle-menu:focus {
@@ -57734,7 +57735,7 @@ WIDGETS
     padding-top: 0px;
 }
 .nav-tools {
-    padding-top: ;
+    z-index: 1000;
 }
 }
 @media (max-width:375px) {
